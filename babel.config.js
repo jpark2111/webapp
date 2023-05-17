@@ -1,1 +1,1 @@
-module.exports = { presets: ["@babel/preset-env", "@babl/preset-react"] };
+module.exports = { presets: ["@babel/preset-env"] };
