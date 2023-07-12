@@ -28,8 +28,5 @@ jobs:
       - name: Yarn Build
         run: yarn build
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
-        with:
-          name: node-app
-          path: build
+      - name: Yarn Test
+        run: yarn test
