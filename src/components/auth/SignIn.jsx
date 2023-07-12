@@ -22,7 +22,7 @@ function App() {
           <div className="w-50 h-50 d-flex flex-column justify-content-center">
             <div className="p-2 d-flex justify-content-between">
               <div className="ps-3">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">Email Change</label>
               </div>
               <div>
                 <input type="text" name="email" />
